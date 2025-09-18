@@ -1,4 +1,5 @@
 To launch the project you have to run following commands in project directory:
+
 npm install
 
 npm run build
