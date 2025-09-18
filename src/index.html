@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<main>
+<body>
+    <section class="hero">
+        <div class="hero-wrapper">
+            <img src="images/faces.jpg" alt="" srcset="">
+        </div>
+        <div class="hero-list">
+            <h1 class="hero-title">
+                How to<br> Participate
+            </h1>
+            <ol class="hero-ol">
+                <li class="hero-bullet">
+                    <span class="hero-bullet__marker">1.</span>
+                    Subscribe to our News
+                </li>
+                <li class="hero-bullet">
+                    <span class="hero-bullet__marker">2.</span>
+                    <button class="hero-button button" id="openPopup">
+                        Sign up
+                    </button>
+                </li>
+                <li class="hero-bullet">
+                    <span class="hero-bullet__marker">3.</span>
+                    Check your email inbox 
+                </li>
+                <li class="hero-bullet">
+                    <span class="hero-bullet__marker">4.</span>
+                    Wait till September 22
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <div class="popup" id="popup">
+        <div class="popup-inner">
+            <img src="icons/close.svg" alt="" class="popup-close" id="closePopup">
+            <form action="" class="popup-form" id="popupForm">
+                <h2 class="popup-title">
+                    To register, enter the mail to which our news is sent<br> and set your password
+                </h2>
+                <input type="text" class="popup-input__email popup-input" name="email" id="popup-input-email" placeholder="Example@email.com">
+                <input type="pasword" class="popup-input__password popup-input" name="password" id="popup-input-password" placeholder="Password">
+                <input type="submit"class="popup-input__button button" value="submit">
+            </form>
+            <div class="popup-success" id="popupThankYou">
+                <h4>Thank you</h4>
+                <p>
+                    To complete registration, please check your e-mail
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js" defer></script>
+</body>
+</main>
+</html>
